@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UFT-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--font awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <title> 🦷 Sweet Care 🦷</title>
+      
+
+    </head>
+    <body>
+        <header>
+            <input type="checkbox" name="" id="toggler">
+            <label for="toggler" class="fas fa-bars"></label>
+
+            <a href="#" class="logo">Sweet Care<span>.</span></a>
+
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#shop">Tienda</a>
+                <a href="#review">Reseñas</a>
+                <a href="#about">Nosotros</a>
+                <a href="#contact">Contacto</a>
+            </nav>
+  
+            <div class="icons">
+                <a href="#shedule" class="fa-solid fa-calendar-plus"></a>
+                <a  href="#favorites" class="fa-solid fa-heart"></a>
+                <a href="#cart" class="fa-solid fa-cart-shopping"></a>
+                <a href="#user" class="fa-solid fa-circle-user"></a>
+            </div>
+        </header>
+
+        <section class="home" id="home">
+            <div class="content">
+                <h3>Atención a tu alcance</h3>
+                <span> ¡La mejor versión de ti!</span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit mollitia unde enim eaque praesentium sunt vero autem suscipit nemo officiis, sequi pariatur quas ad distinctio tempore facilis vel consequuntur laboriosam.</p>
+                <a href="#" class="button">Shop</a>
+            </div>
+
+
+        </section>
+
+        <section class="about" id="about">
+            <h1 class="heading">Sobre<span> nosotros</span></h1>
+            <div class="row">
+                <div class="video-container">
+                    <h3>Best Flower sellers</h3>
+                    <video src="assets/img/(9) _ Microsoft Teams and 4 more pages - Personal - Microsoft​ Edge 2021-09-30 16-02-03.mp4" loop autoplay muted></video>
+                </div>
+                <div class="content">
+                    <h3>Historia</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam natus adipisci quae velit explicabo totam optio reiciendis, 
+                        fuga, delectus minima earum illum quis a similique dolore. Officiis rem ad temporibus?
+                    </p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem eveniet voluptatum sed, perferendis itaque similique, repellendus nemo dolorum nostrum error fugiat! Ratione deserunt vitae non porro quae. Earum, 
+                        impedit alias.</p>
+                    <a href="#" class="button"> More</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="icons-container">
+            <div class="icons">
+                <img src="assets/img/camion.png" alt="" width="">
+                <div class="info">
+                    <h3>Envios gratis</h3>
+                    <span>en sus ordenes</span>
+                </div>
+            </div>
+            <div class="icons">
+                <img src="assets/img/billete-de-un-dolar.png" alt="" width="">
+                <div class="info">
+                    <h3>Variedad en Metodos de pago</h3>
+                    <span>En servicios y compras</span>
+                </div>
+            </div>
+            <div class="icons">
+                <img src="assets/img/magia.png" alt="" width="">
+                <div class="info">
+                    <h3>Sorpresas y descuentos</h3>
+                    <span>Cada mes</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="shedule" id="shedule">
+            <h1 class="heading">Programar <span>cita</span></h1>
+            <div class="calendar">
+                <label>Día:</label>
+                <input type="date">
+
+            </div>
+            <div id="cronofy-date-time-picker"></div>
+<!--<script src="https://elements.cronofy.com/js/CronofyElements.v1.52.0.js"></script>
+<script>
+    CronofyElements.DateTimePicker({
+        element_token: "{ELEMENT_TOKEN}",
+        target_id: "cronofy-date-time-picker",
+        availability_query: {
+            participants: [
+                {
+                    required: "all",
+                    members: [
+                        { sub: "acc_12345678" },
+                        { sub: "acc_87654321" }
+                    ]
+                }
+            ],
+            required_duration: { minutes: 30 },
+            query_periods: [
+                { start: "2022-10-17T09:00:00Z", end: "2022-10-17T17:00:00Z" },
+                { start: "2022-10-18T09:00:00Z", end: "2022-10-18T17:00:00Z" }
+            ]
+        },
+        styles: {
+            prefix: "custom-name"
+        },
+        callback: notification => console.log("callback", notification)
+    });
+</script>-->
+            <a href="#" class="button"> Continuar</a>
+        </section>
+
+
+
+
+        <section class="shop" id="shop">
+            <h1 class="heading">Productos <span>disponibles</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <span class="discount">-10%</span>
+                    <div class="image">
+                        <img src="assets/img/c1.jpg" width="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="cart-btn">Add to cart</a>
+                            <a href="#" class="fa-solid fa-share-from-square"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Flower pot</h3>
+                        <div class="price">$12.99 <span>$6.0</span></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <span class="discount">-10%</span>
+                    <div class="image">
+                        <img src="assets/img/k1.jpg" width="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="cart-btn">Add to cart</a>
+                            <a href="#" class="fa-solid fa-share-from-square"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Flower pot</h3>
+                        <div class="price">$20 <span>$10</span></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="review" id="review">
+            <h1 class="heading"> Reseñas <span> de Clientes</span></h1>
+            <div class="box-conta">
+                <div class="box">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet amet maxime beatae? Ab enim magni, facere quod aliquid dolorum? Cum, a
+                        t labore assumenda quidem quisquam vel voluptate magni ea porro?</p>
+                    <div class="user">
+                        <!--<img src="assets/img/icon2.png" alt="">-->
+                        <div class="user-info">
+                            <h3></h3>
+                            <span></span>
+                        </div>
+                    </div>
+                    <span class="fas fa-quote-right"></span>
+                
+                        
+                </div>
+
+            </div>
+
+        </section>
+        <section class="contact" id="contact">
+            <h1 class="heading"><span>Contactanos</span></h1>
+            <div class="row">
+                <div class="image">
+                    <img src="assets/img/doc.png" alt="" width="300">
+                </div>
+                <form action="">
+                    <input type="text" placeholder="Nombre" class="box">
+                    <input type="email" placeholder="Email" class="box">
+                    <textarea name="" class="box" placeholder="Mensaje" id="" cols="30" rows="10"></textarea>
+
+                    <input type="submit" value="Enviar" class="button">
+                </form>
+
+                
+            </div>
+
+        </section>
+        <section class="contact" id="register">
+            <h1 class="heading"><span>Registrate</span></h1>
+            <div class="row">
+                
+                <form action="">
+                    <div class="col-6">
+                        <input type="text" placeholder="Nombre" class="box">
+                        <input type="email" placeholder="Email" class="box">
+                        <label class="text"> Fecha de nacimiento</label>
+                        <input type="date" placeholder="Fecha de nacimiento" class="box">
+                        <input type="number" placeholder="Edad" class="box">
+                        <div class="data">
+                            <label class="text">Genero</label>
+                            <br>
+                              <input type="radio" id="femenino" value="femenino" class="radio">
+                              <label for="femenino" class="tag">Femenino</label>
+                              <input type="radio" id="masculino"  value="masculino" class="radio">
+                              <label for="masculino"  class="tag">Masculino</label>
+                              <input type="radio" id="other"  value="other"class="radio">
+                              <label for="other" class="tag">Prefiero no contestar</label>
+
+
+                        </div>
+                        <input type="number" placeholder="Celular" class="box">
+                        <input type="password" placeholder="Contraseña" class="box">
+
+                    </div>
+                    <div class="col-6">
+                    </div>
+                    
+                    
+
+                    <input type="submit" value="Confirmar" class="button">
+                </form>
+
+                
+            </div>
+
+        </section>
+
+
+
+
+    </body>
+    <footer>
+        
+    </footer>
+
+</html>
